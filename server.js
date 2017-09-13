@@ -64,10 +64,17 @@ app.get('/',(req,res)=>{
 
 app.get('/about',(req,res)=>{
     res.render('about.hbs',{
-       pagetTitle:'About Page',
+       pagetTitle:'About Page',   
+    });
+});
+
+app.get('/project',(req,res)=>{
+    res.render('project.hbs',{
+       pagetTitle:'Welcome to Project page',
     
     });
 });
+
 
 
 
