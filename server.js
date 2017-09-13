@@ -70,7 +70,7 @@ app.get('/about',(req,res)=>{
 
 app.get('/project',(req,res)=>{
     res.render('project.hbs',{
-       pagetTitle:'Welcome to Project page',
+       pagetTitle:'Welcome to Projects page',
     
     });
 });
