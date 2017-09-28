@@ -1,7 +1,7 @@
-const express= require('express');
-const hbs=require('hbs');
+const express= require('express'); // express impl
+const hbs=require('hbs'); //hbs is a express.js wrapper for the handlebars.js javascript template engine. 
 const fs=require('fs');
-const port=process.env.PORT || 3000;
+const port=process.env.PORT || 3000; // for heroku code need port 
 
 var app= express ();
 
